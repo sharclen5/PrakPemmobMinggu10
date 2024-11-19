@@ -1,6 +1,6 @@
 # Tugas 9 PrakPemMob
 
-## Screenshot
+## Penjelasan dan Screenshot
 
 ### 1. Tampilan Awal (Login Page)
 
