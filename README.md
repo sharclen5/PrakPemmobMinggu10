@@ -4,4 +4,4 @@
 
 ### 1. Tampilan Awal (Login Page)
 
-<img src="src/assets/login.png">
+<img src="public/login.png">
