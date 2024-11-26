@@ -52,3 +52,38 @@ Halaman ini menampilkan informasi dari user yang sedang Login, foto profil diamb
   - Data disimpen di Pinia store dan bisa diakses di seluruh aplikasi, komponen Profile kemudian mengakses data ini melalui computed property
   - Saat user menekan tombol logout, method logout() akan dipanggil dan Firebase signOut() dan Google signOut() akan dijalankan
   - State user dalam Pinia kemudian akan dibersihkan dan user diarahkan kembali ke halaman login
+
+
+
+# Tugas 10 PrakPemMob
+
+## Penjelasan dan Screenshot
+
+### 1. Tampilan Awal dan Form Create
+
+Setelah melakukan perubahan pada kode sebelumnya, akan muncul tombol (+) pada halaman home, tombol ini akan mengarahkan user ke halaman Create yang berisi form seperti pada gambar. Data yang diinputkan oleh user tersebut nantinya akan disimpan menggunakan firebase
+
+<img src="public/homecrud.png">
+<img src="public/add.png">
+
+
+### 2. Data Sukses Ditambahkan dan Edit Data
+
+Data yang telah disimpan kemudian akan ditampilkan dalam halaman Home. Apabila card yang berisikan data dislide ke sebelah kiri maka akan muncul tombol untuk Edit data dan tombol untuk menandakan bahwa todo sudah selesai. Berikut adalah tampilan ketika tombol untuk mengedit data ditekan
+
+<img src="public/addsuccess.png">
+<img src="public/slideleft.png">
+<img src="public/edit.png">
+
+### 3. Data Sukses Diedit dan Tombol Hapus
+
+Data yang telah diedit kemudian seperti sebelumnya, akan ditampilkan lagi di halaman home. Kemudian apabila card yang menampilkan data dislide ke sebelah kanan, maka akan tampil tombol untuk menghapus data, hal ini berbeda dengan tombol untuk menandakan bahwa todo sudah selesai yang telah disampaikan sebelumnya, karena tombol ini bersifat untuk menghapus data secara permanen.
+
+<img src="public/editsuccess.png">
+<img src="public/slideright.png">
+
+### 4. Data Sukses Diedit dan Tombol Hapus
+
+Sementara untuk tombol yang menandakan bahwa todo sudah selesai akan memindahkan data ke bagian bawah list seperti pada gambar berikut
+
+<img src="public/completed.png">
